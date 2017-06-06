@@ -19,6 +19,9 @@
 		6B2A31651EE1690600A8AFDE /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A31641EE1690600A8AFDE /* RestaurantDetailViewController.swift */; };
 		6B2A31671EE16CA300A8AFDE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A31661EE16CA300A8AFDE /* Restaurant.swift */; };
 		6B2A31691EE1730D00A8AFDE /* RestaurantDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A31681EE1730D00A8AFDE /* RestaurantDetailTableViewCell.swift */; };
+		6B6C6A431EE2A5AA00386CFE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C6A421EE2A5AA00386CFE /* MapViewController.swift */; };
+		6B6C6A451EE3E38700386CFE /* AddRestaurantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C6A441EE3E38700386CFE /* AddRestaurantController.swift */; };
+		6B6C6A481EE6867800386CFE /* Foodpin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C6A461EE6867800386CFE /* Foodpin.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		6B2A31641EE1690600A8AFDE /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
 		6B2A31661EE16CA300A8AFDE /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		6B2A31681EE1730D00A8AFDE /* RestaurantDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailTableViewCell.swift; sourceTree = "<group>"; };
+		6B6C6A421EE2A5AA00386CFE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6B6C6A441EE3E38700386CFE /* AddRestaurantController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRestaurantController.swift; sourceTree = "<group>"; };
+		6B6C6A471EE6867800386CFE /* Foodpin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodpin.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				6B2A31661EE16CA300A8AFDE /* Restaurant.swift */,
 				6B2A31681EE1730D00A8AFDE /* RestaurantDetailTableViewCell.swift */,
 				6B1FCFF31EE1B5890071688B /* ReviewViewController.swift */,
+				6B6C6A421EE2A5AA00386CFE /* MapViewController.swift */,
+				6B6C6A441EE3E38700386CFE /* AddRestaurantController.swift */,
+				6B6C6A461EE6867800386CFE /* Foodpin.xcdatamodeld */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -175,9 +184,12 @@
 				6B0F46821EE10F9E00D820DA /* App.xcdatamodeld in Sources */,
 				6B2A31671EE16CA300A8AFDE /* Restaurant.swift in Sources */,
 				6B2A31651EE1690600A8AFDE /* RestaurantDetailViewController.swift in Sources */,
+				6B6C6A451EE3E38700386CFE /* AddRestaurantController.swift in Sources */,
+				6B6C6A431EE2A5AA00386CFE /* MapViewController.swift in Sources */,
 				6B0F467A1EE10F9E00D820DA /* AppDelegate.swift in Sources */,
 				6B0F468F1EE1101B00D820DA /* RestaurantTableViewController.swift in Sources */,
 				6B1FCFF41EE1B5890071688B /* ReviewViewController.swift in Sources */,
+				6B6C6A481EE6867800386CFE /* Foodpin.xcdatamodeld in Sources */,
 				6B2A31691EE1730D00A8AFDE /* RestaurantDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +362,16 @@
 			);
 			currentVersion = 6B0F46811EE10F9E00D820DA /* App.xcdatamodel */;
 			path = App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		6B6C6A461EE6867800386CFE /* Foodpin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B6C6A471EE6867800386CFE /* Foodpin.xcdatamodel */,
+			);
+			currentVersion = 6B6C6A471EE6867800386CFE /* Foodpin.xcdatamodel */;
+			path = Foodpin.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

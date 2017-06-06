@@ -14,7 +14,7 @@ class ReviewViewController: UIViewController {
     @IBOutlet var containerView: UIView!
     
     @IBOutlet var restaurantImageView: UIImageView!
-    var restaurant: Restaurant?
+    var restaurant: RestaurantMo?
     
     @IBOutlet var closeButton: UIButton!
     
@@ -23,7 +23,7 @@ class ReviewViewController: UIViewController {
         
         // 傳遞正確的背景照片
         if let restaurant = restaurant {
-            restaurantImageView.image = UIImage(named: restaurant.image)
+            restaurantImageView.image = UIImage(data: restaurant.image as! Data)
         }
         
         let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.dark)
